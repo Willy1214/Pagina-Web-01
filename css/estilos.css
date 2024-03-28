@@ -5,51 +5,76 @@
 }
 /*selector de etiqueta*/
 body{
-    background-attachment: white;
+    background-attachment: rgba(255, 255, 255, 0.468);
+    background-color:burlywood;
     color:blue;
 }
 
 ul{
     text-align: center;
-    padding: 10px;
+    
 }
 
 li{
     display: inline;
     padding: 10px 30px;
-    margin: 3em;
+    margin: 1em;
 
 }
 
 li a:hover{
-color: crimson;
+color: red;
 font-size: 20px;
 text-decoration: none;
 list-style: none;
+}
 
+main{
+    background-color:coral;
+    margin: 5% 5%;
+    padding: 5% 5%;
+    border-radius: 1%;
+}
+
+article{
+    background-color: beige;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+}
+h3{
+    margin-top: 5px;
+}
+h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
 /*selector id*/
 #contenedor{
-    width: 900px;
-    height: 1200px;
+    width: 75%;
+    height: 75%;
     background-color: bisque;
-    margin: 10px;
+    margin: 100px;
     padding: 20px;
 
 }
 #encabezado{
-    width: 90%;
+    width: 50%;
+    height: 100%;
     background-color: blanchedalmond;
     margin: 1em;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 25px;
 
 }
 #menu{
     height: 40px;
-    background-color: aquamarine;
+    background-color:aliceblue;
     margin: 1em;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 /*selector de clase*/
 .img{
@@ -57,7 +82,13 @@ list-style: none;
     height: 250px;
     justify-items: center;
 }
+.img:hover{
+    width: 60%;
+    height: 300px;
+}
 .text{
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -65,7 +96,8 @@ list-style: none;
     color: black;
 
 }
-#pie{
+.pie{
     height: 60px;
-    
+    text-decoration: none;
+    color: black;
 }
