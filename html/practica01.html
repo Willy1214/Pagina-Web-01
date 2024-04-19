@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="../css/estilos.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/flexbox.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,97 +15,102 @@
 
 <body>
     <header id="encabezado">
-        <h1>Automoviles patria</h1>
+        <h1 class="title">Automoviles patria</h1>
         <img class=img src="../img/carros.png" alt="">
-        <h2>Venta de autos nuevos</h2>
-        <h4>Av. del mar 1200</h4>
+        <h2 class="title">Venta de autos nuevos</h2>
+        <h4 class="title">Av. del mar 1200</h4>
     </header>
 
     <nav id="contenedor">
         <ul id="menu">
-                <li><a href="#toyota">TOYOTA</a></li>
-                <li><a href="#nissan">NISSAN</a></li>
-                <li><a href="#ford">FORD</a></li>
-                <li><a href="#contactos">Contactos</a></li>
+                <li class="title"><a href="#toyota">TOYOTA</a></li>
+                <li class="title"><a href="#nissan">NISSAN</a></li>
+                <li class="title"><a href="#ford">FORD</a></li>
+                <li class="title"><a href="#contactos">Contactos</a></li>
          </ul>
     </nav>
 
     <main>
-        <article id="toyota">
-            <header>
-                <h3>Toyota</h3>
-            </header>
-            <hr>
-            <section>
-                <h4>Toyota Corolla</h4>
+        <header>
+            <h3 class="title">Toyota</h3>
+        </header>
+        <article class="contenedorFlex" id="toyota">
+            <section class="card">
+                <h4 class="title">Toyota Corolla</h4>
                 <img class="img" src="../img/carro1.png" alt="">
-                <p class="text">El Toyota Corolla se compone de una cabina de alta
+                <p class="jersey-15-regular">El Toyota Corolla se compone de una cabina de alta
                     integridad con zonas de deformación frontal y trasera
                     que ayudan a absorber la energía del impacto en una 
                     colisión. También incorpora un concepto de compatibilidad 
                     que persigue la coexistencia de vehículos de diferentes pesos
                     y alturas en una colisión.</p>
+                    <p><button>Ver ficha tecnica</button></p>
             </section>
-            <section>
-                <h4>Toyota Supra</h4>
+            <section class="card">
+                <h4 class="title">Toyota Supra</h4>
                 <img class="img" src="../img/carro2.png" alt="">
-                <p class="text">Es un automóvil deportivo hatchback
+                <p class="jersey-15-regular">Es un automóvil deportivo hatchback
                     de 3 puertas, con motor delantero
                     montado longitudinalmente y de tracción
                     trasera, producido por el fabricante japonés
                     Toyota desde 1978 hasta la actualidad.</p>
+                    <p><button>Ver ficha tecnica</button></p>
             </section>
         </article>
         
-        <article id="nissan">
-            <header>
-                <h3>Nissan</h3>
-            </header>
-            <hr>
-            <section>
-                <h4>Nissan Versa</h4>
+        <header>
+            <h3 class="title">Nissan</h3>
+        </header>
+        <article class="contenedorFlex" id="nissan">
+            
+            <section class="card">
+                <h4 class="title">Nissan Versa</h4>
                 <img class="img" src="../img/carro3.png" alt="">
-                <p class="text">El Nissan Versa es un automóvil de segmento B
+                <p class="jersey-15-regular">El Nissan Versa es un automóvil de segmento B
                     ofrecido por el fabricante japonés Nissan.
                     A lo largo de los años, el Versa se ha 
                     posicionado como una opción económica y 
                     confiable dentro de su categoría, destacándose
                     por su eficiencia de combustible, comodidad interior 
                     y precio accesible</p>
+                    <p><button>Ver ficha tecnica</button></p>
             </section>
-            <section>
-                <h4>Nissan Sentra</h4>
+            <section class="card">
+                <h4 class="title">Nissan Sentra</h4>
                 <img class="img" src="../img/carro4.png" alt="">
-                <p class="text">Un poco más grande que el Versa,
+                <p class="jersey-15-regular">Un poco más grande que el Versa,
                     el Sentra es un sedán compacto que
                     ofrece un buen equilibrio entre comodidad,
                     estilo y eficiencia de combustible.
                     Viene con tecnologías modernas y un interior de calidad.</p>
+                    <p><button>Ver ficha tecnica</button></p>
             </section>
         </article>
 
-        <article id="ford">
-            <header>
-                <h3>Ford</h3>
-            </header>
-            <hr>
-            <section>
-                <h4>Ford Fiesta</h4>
+        <header>
+            <h3 class="title">Ford</h3>
+        </header>
+        <article class="contenedorFlex" id="ford">
+            
+            <section class="card">
+                <h4 class="title">Ford Fiesta</h4>
                 <img class="img" src="../img/carro5.png" alt="">
-                <p class="text">
+                <p class="jersey-15-regular">
                     Un automóvil compacto que ofrece una conducción ágil,
                     eficiencia de combustible y una amplia variedad de características
                     tecnológicas. Es conocido por ser divertido de manejar y asequible.
                 </p>
+                <p><button>Ver ficha tecnica</button></p>
             </section>
-            <section>
-                <h4>Ford Focus</h4>
+            <section class="card">
+                <h4 class="title">Ford Focus</h4>
                 <img class="img" src="../img/carro6.png" alt="">
-                <p class="text">
+                <p class="jersey-15-regular">
                     Disponible como hatchback o sedán, el Focus es otro automóvil compacto
                     que se destaca por su manejo ágil y su interior bien equipado.
                     Ofrece una gama de opciones de motorización y niveles de equipamiento.
                 </p>
+                <p><button>Ver ficha tecnica</button></p>
             </section>
         </article>
 
