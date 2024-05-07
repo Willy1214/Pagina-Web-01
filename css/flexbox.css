@@ -19,7 +19,7 @@
     box-shadow: 0 4px 8px 0 black;
     overflow: hidden;
     max-width: 400px;
-    max-height: 500px;
+    max-height: 200px;
     margin: auto;
     text-align: center;
     border: 2px solid;
@@ -32,5 +32,7 @@
 }
 
 .card img{
-    background-color: white;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
 }
