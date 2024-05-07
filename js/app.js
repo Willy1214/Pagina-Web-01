@@ -1,3 +1,5 @@
+//Practica IMC
+
 const btnCalcular= document.getElementById('btnCalcular');
 btnCalcular.addEventListener('click',function calcular (){
 
@@ -15,3 +17,6 @@ document.getElementById('peso'). value=null;
 document.getElementById('altura'). value=null;
 document.getElementById('imc'). value=null;
 });
+
+
+
